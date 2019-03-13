@@ -12,14 +12,15 @@ import pandas as pd
 SYMS = ['.','：','。',',','，']
 USER = ['王春燕','牛红峰','王丰','张兆哲','李永明','Asif','ashil','雷宗木','丁洁','Nomaan Khan','Muhammad','ZYX赵宇轩','魏昂','朱蓉蓉','闫东超','Shafiq Rai','张陈然','牛军锋','赵颖慧','蔡志波','周存理','滕千礼']
 SIMP = ['[',']','#',"'"]
+
 def getYesterday():
 
     today=datetime.date.today()
-    oneday=datetime.timedelta(days=0)
+    oneday=datetime.timedelta(days=1)
     yesterday=today-oneday
     return yesterday
 
-def revise_time(ctn_time, base_time):
+def revise_time(ctn_time, base_time,yesterday):
 
     ctn_time = "%s %s"%(yesterday, ctn_time)
     ctn_time = datetime.datetime.strptime(ctn_time,'%Y-%m-%d %H:%M')
@@ -47,7 +48,7 @@ def match_check(time_list):
                 check_timelist.append(out_str)
     return check_timelist
 
-def format_io(uid, ctn, time):
+def format_io(uid, ctn, time, yesterday):
 
     try:
         ctn_low = ctn.lower().strip()
@@ -66,10 +67,10 @@ def format_io(uid, ctn, time):
             pattern = re.compile(r'\d+:\d+')
             time_io = re.findall(pattern, ctn_low)
 
-            time_io = sorted([revise_time(x, time) for x in time_io])
+            time_io = sorted([revise_time(x, time, yesterday) for x in time_io])
             return ["in#%s"%time_io[0],"out#%s"%time_io[1]]
 
-        else:
+        if 'in' in ctn_low or 'out' in ctn_low:
             flag = None
             if 'in' in ctn_low:
                 flag = 'in'
@@ -78,10 +79,18 @@ def format_io(uid, ctn, time):
 
             pattern = re.compile(r'\d+:\d+')
             time_io = re.findall(pattern, ctn_low)
+
             if time_io == []:
-                return "%s#%s" % (flag, time)
+                pattern = re.compile(r'\d+')
+                time_io = re.findall(pattern, ctn_low)
+                if time_io == []:
+                    return "%s#%s" % (flag, time)
+                else:
+                    time_io[0] = "%s:00"%time_io[0]
+                    return "%s#%s" %(flag, revise_time(time_io[0], time, yesterday))
             else:
-                return "%s#%s" % (flag, revise_time(time_io[0], time))
+
+                return "%s#%s" % (flag, revise_time(time_io[0], time, yesterday))
 
     except:
         print "Exception in (%s,%s,%s)" %(uid, ctn, time)
@@ -99,77 +108,87 @@ def sum_time(time_list):
     seconds = time_delta.total_seconds()
     return str(time_delta)[:-3],int(seconds)
 
+def init_dict(yesterday,dir_prefix):
 
-yesterday = str(getYesterday())
+    kv = {}
 
-kv = {}
-
-for uid in USER:
-    if uid not in kv.keys():
-            kv[uid] = []
-with open('../data/%s.txt'%yesterday, 'r') as fr:
-    for line in fr:
-        line = line.strip()
-
-        uid, ctn, time = line.split('\t')
-        time = time.split(' ')[1]
+    for uid in USER:
         if uid not in kv.keys():
-            kv[uid] = []
-        io = format_io(uid, ctn, time)
-        if io == None:
-            continue
-        if isinstance(io,list):
-            kv[uid].extend(io)
-        else:
-            kv[uid].append(io)
+                kv[uid] = []
+    with open('%s/data/%s.txt'%(dir_prefix,yesterday), 'r') as fr:
+        for line in fr:
+            line = line.strip()
 
-res = []
+            uid, ctn, time = line.split('\t')
+            time = time.split(' ')[1]
+            if uid not in kv.keys():
+                kv[uid] = []
+            io = format_io(uid, ctn, time, yesterday)
+            if io == None:
+                continue
+            if isinstance(io,list):
+                kv[uid].extend(io)
+            else:
+                kv[uid].append(io)
+    return kv
 
+def save_csv(kv,yesterday,dir_prefix):
 
-for uid in kv.keys():
-#    print uid
-    timelist = kv[uid]
+    res = []
+    for uid in kv.keys():
+        timelist = kv[uid]
+        timelist = timelist[:6]
+        timelist = match_check(timelist)
+        item = [ x.split('#')[1] for x in timelist]
+        total_time,seconds= sum_time(item)
+        while len(item) != 6:
+            item.append('')
+        item.insert(0, uid)
+        item.append(total_time)
+        item.append(seconds)
+        res.append(item)
 
-    timelist = timelist[:6]
-#    print timelist
-    timelist = match_check(timelist)
-#    print timelist
-    item = [ x.split('#')[1] for x in timelist]
-    total_time,seconds= sum_time(item)
-    while len(item) != 6:
-        item.append('')
-    item.insert(0, uid)
-    item.append(total_time)
-    item.append(seconds)
-    res.append(item)
+    csv_utf = '%s/report/%s.csv'%(dir_prefix,yesterday)
+    df = pd.DataFrame(res,columns = ['user','in1','out1','in2','out2','in3','out3','sum_time','seconds'])
+    df.to_csv(csv_utf, encoding='utf_8_sig',columns = ['user','in1','out1','in2','out2','in3','out3','sum_time'], index = False)
+    return df
 
+def top_last(df):
 
-csv_gbk = '../report/%sgbk.csv'%yesterday
-csv_utf = '../report/%sutf.csv'%yesterday
-df = pd.DataFrame(res,columns = ['user','in1','out1','in2','out2','in3','out3','sum_time','seconds'])
-df.to_csv(csv_gbk, encoding='gbk',columns = ['user','in1','out1','in2','out2','in3','out3','sum_time'], index = False)
-df.to_csv(csv_utf, encoding='utf_8_sig',columns = ['user','in1','out1','in2','out2','in3','out3','sum_time'], index = False)
+    top3_df = df.sort_values(by='sum_time',ascending=False)
+    top3 = []
+    for uid in top3_df[:3]['user']:
+        top3.append(uid)
 
-#df = pd.DataFrame(res,columns = ['user','in1','out1','in2','out2','in3','out3','sum_time','seconds'],index = False)
-top3_df = df.sort_values(by='sum_time',ascending=False)
-top3 = []
-for uid in top3_df[:3]['user']:
-    top3.append(uid)
+    unfinish_df = df[df['seconds']<21600]
+    unfinish = []
+    for uid in unfinish_df['user']:
+        unfinish.append(uid)
+    return top3, unfinish
 
-unfinish_df = df[df['seconds']<21600]
-unfinish = []
-for uid in unfinish_df['user']:
-    unfinish.append(uid)
+def message(top3,unfinish,kv,yesterday):
+    msg = "%s Daily Check Info\n"%yesterday
+    msg += "Top3: %s,%s,%s\n"%(top3[0],top3[1],top3[2])
+    msg += "Not reached:\n"
+    for uid in unfinish:
+        txt = str(kv[uid])
+        for split in SIMP:
+            txt = txt.replace(split,'')
+        txt = txt.replace(',',' ')
+        msg += "%s %s\n"%(uid,txt)
+    return msg
 
-msg = "%s Daily Check Info\n\n"%yesterday
-msg += "Top3: %s,%s,%s\n\n"%(top3[0],top3[1],top3[2])
-msg += "Not reached:\n"
-for uid in unfinish:
-    txt = str(kv[uid])
-    for split in SIMP:
-        txt = txt.replace(split,'')
-    txt = txt.replace(',',' ')
-    msg += "%s %s\n"%(uid,txt)
-print msg
+def data_process(dir_prefix):
 
+    yesterday = str(getYesterday())
+    kv = init_dict(yesterday,dir_prefix)
+    dataframe = save_csv(kv,yesterday,dir_prefix)
+    top, last = top_last(dataframe)
+    msg = message(top,last,kv,yesterday)
+    return msg
 
+if __name__ == '__main__':
+
+    #dir_prefix=""  absolute path of the project
+    #data_process()
+    pass

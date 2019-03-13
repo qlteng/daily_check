@@ -16,8 +16,8 @@ import logging
 import argparse
 
 
-
-logging.basicConfig()
+LOG_FORMAT = '%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s'
+logging.basicConfig(level = logging.INFO, format = LOG_FORMAT)
 
 sys.path.append('/usr/local/lib/python2.7/dist-packages/itchat/__init__.py')
 
@@ -41,7 +41,7 @@ def group_reply_text(msg):
         date = str(datetime.datetime.strftime(datetime.datetime.now(),'%Y-%m-%d'))
         try:
             item = "%s\t%s\t%s\n"%(username.encode('utf8'), content.encode('utf8'), str(timestamp))
-            print (item)
+            logging.INFO(item)
             with open('%s/data/%s.txt'%(dir_prefix, date),'a') as fw:
                 fw.write(item)
         except:

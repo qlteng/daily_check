@@ -31,18 +31,21 @@ def send_msg(chat_id,dir_prefix):
 def group_reply_text(msg):
 
     chatroom_id = msg['FromUserName']
+    chatroom_id2 = msg['ToUserName']
     username = msg['ActualNickName']
     content=msg['Content']
     now_time = datetime.datetime.now()
     timestamp = datetime.datetime.strftime(now_time,'%Y-%m-%d %H:%M')
 
-    if chatroom_id==chat_id:
+    if chatroom_id == chat_id or chatroom_id2 == chat_id:
         date = str(datetime.datetime.strftime(datetime.datetime.now(),'%Y-%m-%d'))
         try:
             item = "%s\t%s\t%s\n"%(username.encode('utf8'), content.encode('utf8'), str(timestamp))
-            #logging.INFO(item)
-            with open('%s/data/%s.txt'%(dir_prefix, date),'a') as fw:
-                fw.write(item)
+            if 'Daily Check Info' in content.encode('utf-8'):
+                pass
+            else:
+                with open('%s/data/%s.txt'%(dir_prefix, date),'a') as fw:
+                    fw.write(item)
         except:
             pass
 

@@ -137,7 +137,7 @@ def save_csv(kv,yesterday,dir_prefix):
     res = []
     for uid in kv.keys():
         timelist = kv[uid]
-        timelist = timelist[:6]
+        #timelist = timelist[:6]
         timelist = match_check(timelist)
         item = [ x.split('#')[1] for x in timelist]
         total_time,seconds= sum_time(item)

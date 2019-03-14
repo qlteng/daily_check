@@ -155,7 +155,7 @@ def save_csv(kv,yesterday,dir_prefix):
 
 def top_last(df):
 
-    top3_df = df.sort_values(by='sum_time',ascending=False)
+    top3_df = df.sort_values(by='seconds',ascending=False)
     top3 = []
     for uid in top3_df[:3]['user']:
         top3.append(uid)
@@ -189,6 +189,6 @@ def data_process(dir_prefix):
 
 if __name__ == '__main__':
 
-    #dir_prefix=""  absolute path of the project
-    #data_process()
-    pass
+    dir_prefix="/home/qlteng/qlteng_data/daily_check"
+    msg = data_process(dir_prefix)
+    print msg

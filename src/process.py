@@ -66,9 +66,13 @@ def format_io(uid, ctn, time, yesterday):
 
             pattern = re.compile(r'\d+:\d+')
             time_io = re.findall(pattern, ctn_low)
-
-            time_io = sorted([revise_time(x, time, yesterday) for x in time_io])
-            return ["in#%s"%time_io[0],"out#%s"%time_io[1]]
+            time_io = [revise_time(x, time, yesterday) for x in time_io]
+            in_index = ctn_low.find('in')
+            out_index = ctn_low.find('out')
+            in_out = ['in','out']
+            if in_index > out_index:
+                in_out = ['out','in']
+            return ['#'.join(x) for x in zip(in_out,time_io)]
 
         if 'in' in ctn_low or 'out' in ctn_low:
             flag = None
@@ -118,18 +122,20 @@ def init_dict(yesterday,dir_prefix):
     with open('%s/data/%s.txt'%(dir_prefix,yesterday), 'r') as fr:
         for line in fr:
             line = line.strip()
-
-            uid, ctn, time = line.split('\t')
-            time = time.split(' ')[1]
-            if uid not in kv.keys():
-                kv[uid] = []
-            io = format_io(uid, ctn, time, yesterday)
-            if io == None:
-                continue
-            if isinstance(io,list):
-                kv[uid].extend(io)
-            else:
-                kv[uid].append(io)
+            try:
+                uid, ctn, time = line.split('\t')
+                time = time.split(' ')[1]
+                if uid not in kv.keys():
+                    kv[uid] = []
+                io = format_io(uid, ctn, time, yesterday)
+                if io == None:
+                    continue
+                if isinstance(io,list):
+                    kv[uid].extend(io)
+                else:
+                    kv[uid].append(io)
+            except:
+                pass
     return kv
 
 def save_csv(kv,yesterday,dir_prefix):
@@ -167,15 +173,15 @@ def top_last(df):
     return top3, unfinish
 
 def message(top3,unfinish,kv,yesterday):
-    msg = "%s Daily Check Info\n"%yesterday
-    msg += "Top3: %s,%s,%s\n"%(top3[0],top3[1],top3[2])
-    msg += "Not reached:\n"
+    msg = "%s Daily Check Info\n\n"%yesterday
+    msg += "Top3: %s,%s,%s\n\n"%(top3[0],top3[1],top3[2])
+    msg += "Not reached:\n\n"
     for uid in unfinish:
         txt = str(kv[uid])
         for split in SIMP:
             txt = txt.replace(split,'')
         txt = txt.replace(',',' ')
-        msg += "%s %s\n"%(uid,txt)
+        msg += "%s: %s\n"%(uid,txt)
     return msg
 
 def data_process(dir_prefix):

@@ -11,18 +11,44 @@ import itchat.content as co
 import datetime
 import sys
 from process import data_process
+from week_info import message_on_sat,message_on_mon,sum_time
 from apscheduler.schedulers.background import BackgroundScheduler
 import logging
 import argparse
 
-
-logging.basicConfig()
+LOG_FORMAT = '%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s'
+logging.basicConfig(level=logging.INFO,format=LOG_FORMAT)
 
 sys.path.append('/usr/local/lib/python2.7/dist-packages/itchat/__init__.py')
 
-def send_msg(chat_id,dir_prefix):
+def send_on_mon(dir_prefix):
 
-    txt = data_process(dir_prefix)
+    df, no_reach = sum_time(7,dir_prefix)
+
+    top3_df = df.sort_values(by='sum_time(h)',ascending=False)
+    top3 = []
+    for uid in top3_df[:3]['user']:
+        top3.append(uid)
+
+    return message_on_mon(top3,no_reach)
+
+
+def send_on_sat(dir_prefix):
+
+    df, no_reach = sum_time(5,dir_prefix, to_csv = False)
+
+    return message_on_sat(no_reach)
+
+
+def send_msg(chat_id,dir_prefix,flag):
+
+    txt = None
+    if flag == 0:
+        txt = data_process(dir_prefix)
+    elif flag == 1:
+        txt = send_on_sat(dir_prefix)
+    elif flag == 2:
+        txt = send_on_mon(dir_prefix)
     itchat.send_msg(unicode(txt,'UTF-8'), chat_id.encode('utf-8'))
 
 
@@ -36,12 +62,20 @@ def group_reply_text(msg):
     content=msg['Content']
     now_time = datetime.datetime.now()
     timestamp = datetime.datetime.strftime(now_time,'%Y-%m-%d %H:%M')
+    today = str(datetime.datetime.strftime(datetime.datetime.today(),'%Y-%m-%d'))
+    yesterday = str(datetime.datetime.strftime(datetime.datetime.today()-datetime.timedelta(days=1),'%Y-%m-%d'))
+    threshold_time = datetime.datetime.strptime("%s 02:00" % today, '%Y-%m-%d %H:%M')
 
     if chatroom_id == chat_id or chatroom_id2 == chat_id:
-        date = str(datetime.datetime.strftime(datetime.datetime.now(),'%Y-%m-%d'))
+
+        date = ""
+        if now_time < threshold_time:
+            date = yesterday
+        else:
+            date = today
         try:
             item = "%s\t%s\t%s\n"%(username.encode('utf8'), content.encode('utf8'), str(timestamp))
-            if 'Daily Check Info' in content.encode('utf-8'):
+            if 'Check Info' in content.encode('utf-8') or 'Check Attention' in content.encode('utf-8'):
                 pass
             else:
                 with open('%s/data/%s.txt'%(dir_prefix, date),'a') as fw:
@@ -66,8 +100,11 @@ itchat.auto_login()
 chatrooms = itchat.get_chatrooms(update=True)
 chat_id=get_chatroom(chatrooms)
 sched = BackgroundScheduler()
-sched.add_job(send_msg, 'cron',day_of_week='2-6', hour=7, minute = 30,kwargs={"chat_id": chat_id, "dir_prefix" : dir_prefix})
+sched.add_job(send_msg, 'cron', day_of_week='tue-fri', hour=7, minute = 30, kwargs={"chat_id" : chat_id, "dir_prefix" : dir_prefix, "flag":0})
+sched.add_job(send_msg, 'cron', day_of_week = 'sat', hour = 7, minute = 30, second=10, kwargs = {"chat_id": chat_id, "dir_prefix" : dir_prefix, "flag":1})
+sched.add_job(send_msg, 'cron', day_of_week = 'mon', hour = 7, minute = 30, second=10, kwargs = {"chat_id": chat_id, "dir_prefix" : dir_prefix, "flag":2})
 sched.start()
+data_process(dir_prefix)
 itchat.run()
 
 

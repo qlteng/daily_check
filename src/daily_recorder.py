@@ -96,7 +96,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--dir',type = str)
 args = parser.parse_args()
 dir_prefix = args.dir
-itchat.auto_login()
+itchat.auto_login(enableCmdQR=True)
 chatrooms = itchat.get_chatrooms(update=True)
 chat_id=get_chatroom(chatrooms)
 sched = BackgroundScheduler()

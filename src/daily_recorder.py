@@ -48,7 +48,6 @@ def send_msg(chat_id,dir_prefix,flag):
         txt = send_on_sat(dir_prefix)
     elif flag == 2:
         txt = send_on_mon(dir_prefix)
-    print txt
     itchat.send_msg(unicode(txt,'UTF-8'), chat_id.encode('utf-8'))
 
 
@@ -99,7 +98,6 @@ dir_prefix = args.dir
 itchat.auto_login(enableCmdQR=True)
 chatrooms = itchat.get_chatrooms(update=True)
 chat_id=get_chatroom(chatrooms)
-send_msg(chat_id,dir_prefix,0)
 
 sched = BackgroundScheduler()
 sched.add_job(data_process, 'cron', day_of_week='*', hour=7, minute = 0, second = 0, kwargs={"dir_prefix" : dir_prefix})

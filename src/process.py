@@ -10,7 +10,7 @@ import re
 import pandas as pd
 
 SYMS = ['.','：','。',',','，']
-USER = ['王春燕','牛红峰','王丰','张兆哲','李永明','Asif','ashil','雷宗木','丁洁','Nomaan Khan','Muhammad','ZYX赵宇轩','魏昂','朱蓉蓉','闫东超','Shafiq Rai','张陈然','牛军锋','赵颖慧','蔡志波','周存理','滕千礼']
+USER = ['王春燕','牛红峰','王丰','张兆哲','李永明','Asif','ashil','雷宗木','丁洁','Nomaan Khan','Muhammad','赵宇轩','魏昂','朱蓉蓉','闫东超','Shafiq Rai','张陈然','牛军锋','赵颖慧','蔡志波','周存理','滕千礼']
 SIMP = ['[',']','#',"'"]
 
 def getYesterday():
@@ -147,13 +147,13 @@ def save_csv(kv,yesterday,dir_prefix):
         timelist = match_check(timelist)
         item = [ x.split('#')[1] for x in timelist]
         total_time,seconds= sum_time(item)
-        while len(item) != 6:
+        item=item[:6]
+        while len(item) < 6:
             item.append('')
         item.insert(0, uid)
         item.append(total_time)
         item.append(seconds)
         res.append(item)
-
     csv_utf = '%s/report/%s.csv'%(dir_prefix,yesterday)
     df = pd.DataFrame(res,columns = ['user','in1','out1','in2','out2','in3','out3','sum_time','seconds'])
     df.to_csv(csv_utf, encoding='utf_8_sig',columns = ['user','in1','out1','in2','out2','in3','out3','sum_time'], index = False)

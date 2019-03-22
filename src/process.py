@@ -166,7 +166,7 @@ def top_last(df):
     for uid in top3_df[:3]['user']:
         top3.append(uid)
 
-    unfinish_df = df[df['seconds']<21600]
+    unfinish_df = df[df['seconds']<28800]
     unfinish = []
     for uid in unfinish_df['user']:
         unfinish.append(uid)

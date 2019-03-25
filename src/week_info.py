@@ -14,6 +14,8 @@ USER = ['王春燕','牛红峰','王丰','张兆哲','李永明','Asif','ashil',
 def acc_time(time_list):
     acc = datetime.timedelta()
     for x in time_list:
+        if 'day' in x:
+            x = x.split(' ')[-1]
         h,m = [int(x) for x in x.split(':')]
         acc += datetime.timedelta(hours = h, minutes = m)
     return acc
@@ -44,7 +46,7 @@ def message_on_mon(top3,no_reach):
     msg += "Top3: %s,%s,%s\n\n"%(top3[0],top3[1],top3[2])
     msg += "Not reach:\n\n"
     for uid,time in no_reach:
-        msg += "%s: %s\n"%(uid,time)
+        msg += "%s: %sh\n"%(uid,time)
     msg += "Sorry to tell you that your work time is not enough last week,please work harder this week\n"
     for uid,time in no_reach:
         msg += "@%s "%uid
@@ -55,7 +57,7 @@ def message_on_sat(no_reach):
 
     msg += "Your work time not reach 40 hours,please keep working on the weekend\n\n"
     for uid,time in no_reach:
-        msg += "%s: %s\n"%(uid,time)
+        msg += "%s: %sh\n"%(uid,time)
     for uid,time in no_reach:
         msg += "@%s "%uid
     return msg
@@ -114,7 +116,7 @@ def sum_time(days,dir_prefix = "",to_csv=True):
 
 if __name__ == '__main__':
 
-    dir_prefix="/home/qlteng/qlteng_data/daily_check"
+    dir_prefix="/home/zbcai/daily_check"
     print send_on_sat(dir_prefix)
     print send_on_mon(dir_prefix)
 

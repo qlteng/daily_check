@@ -30,6 +30,8 @@ def revise_time(ctn_time, base_time,yesterday):
 
     if base_time - ctn_time > datetime.timedelta(hours = 12):
         ctn_time = ctn_time + datetime.timedelta(hours = 12)
+    if base_time-ctn_time<datetime.timedelta(0) and base_time-ctn_time>-datetime.timedelta(hours=12):
+        ctn_time = ctn_time + datetime.timedelta(hours=12)
 
     return datetime.datetime.strftime(ctn_time,'%H:%M')
 
@@ -80,7 +82,6 @@ def format_io(uid, ctn, time, yesterday):
                 flag = 'in'
             else:
                 flag = 'out'
-
             pattern = re.compile(r'\d+:\d+')
             time_io = re.findall(pattern, ctn_low)
 
@@ -93,7 +94,6 @@ def format_io(uid, ctn, time, yesterday):
                     time_io[0] = "%s:00"%time_io[0]
                     return "%s#%s" %(flag, revise_time(time_io[0], time, yesterday))
             else:
-
                 return "%s#%s" % (flag, revise_time(time_io[0], time, yesterday))
 
     except:

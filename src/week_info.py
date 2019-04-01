@@ -9,7 +9,7 @@ import datetime
 import pandas as pd
 
 
-USER = ['王春燕','牛红峰','王丰','张兆哲','李永明','Asif','ashil','雷宗木','丁洁','Nomaan Khan','Muhammad','赵宇轩','魏昂','朱蓉蓉','闫东超','Shafiq Rai','张陈然','牛军锋','赵颖慧','蔡志波','周存理','滕千礼']
+USER = ['王春燕','田泽英','牛红峰','王丰','张兆哲','李永明','Asif','ashil','雷宗木','丁洁','Nomaan Khan','Muhammad','赵宇轩','魏昂','朱蓉蓉','闫东超','Shafiq Rai','张陈然','牛军锋','赵颖慧','蔡志波','周存理','滕千礼']
 
 def acc_time(time_list):
     acc = datetime.timedelta()
@@ -116,7 +116,7 @@ def sum_time(days,dir_prefix = "",to_csv=True):
 
 if __name__ == '__main__':
 
-    dir_prefix="/home/zbcai/daily_check"
+    dir_prefix="/home/cywang/daily_check"
     print send_on_sat(dir_prefix)
     print send_on_mon(dir_prefix)
 

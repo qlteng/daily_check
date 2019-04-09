@@ -11,6 +11,7 @@ import pandas as pd
 
 USER = ['王春燕','田泽英','牛红峰','王丰','张兆哲','李永明','Asif','ashil','雷宗木','丁洁','Nomaan Khan','Muhammad','赵宇轩','魏昂','朱蓉蓉','闫东超','Shafiq Rai','张陈然','牛军锋','赵颖慧','蔡志波','周存理','滕千礼']
 
+sp = {'滕千礼':48}
 def acc_time(time_list):
     acc = datetime.timedelta()
     for x in time_list:
@@ -105,7 +106,10 @@ def sum_time(days,dir_prefix = "",to_csv=True):
 
         item = [k,kv[k]]
         res.append(item)
-        if kv[k]<40:
+        if k in sp.keys():
+            if kv[k]<sp[k]:
+                no_reach.append([k,kv[k]])
+        elif kv[k]<40:
             no_reach.append([k,kv[k]])
 
     df = pd.DataFrame(res,columns = ['user','sum_time(h)'])

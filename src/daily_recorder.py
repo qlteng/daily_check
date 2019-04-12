@@ -63,7 +63,7 @@ def group_reply_text(msg):
     timestamp = datetime.datetime.strftime(now_time,'%Y-%m-%d %H:%M')
     today = str(datetime.datetime.strftime(datetime.datetime.today(),'%Y-%m-%d'))
     yesterday = str(datetime.datetime.strftime(datetime.datetime.today()-datetime.timedelta(days=1),'%Y-%m-%d'))
-    threshold_time = datetime.datetime.strptime("%s 02:00" % today, '%Y-%m-%d %H:%M')
+    threshold_time = datetime.datetime.strptime("%s 04:00" % today, '%Y-%m-%d %H:%M')
 
     if chatroom_id == chat_id or chatroom_id2 == chat_id:
 

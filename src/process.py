@@ -8,9 +8,12 @@ Created on Mon Mar 11 21:30:15 2019
 import datetime
 import re
 import pandas as pd
+from init_user import init_user
 
 SYMS = ['.','：','。',',','，']
-USER = ['王春燕','田泽英','牛红峰','王丰','张兆哲','李永明','Asif','ashil','雷宗木','丁洁','Nomaan Khan','Muhammad','赵宇轩','魏昂','朱蓉蓉','闫东超','Shafiq Rai','张陈然','牛军锋','赵颖慧','蔡志波','周存理','滕千礼']
+#USER = ['王春燕','田泽英','牛红峰','王丰','张兆哲','李永明','Asif','ashil','雷宗木','丁洁','Nomaan Khan','Muhammad','赵宇轩','魏昂','朱蓉蓉','闫东超','Shafiq Rai','张陈然','牛军锋','赵颖慧','蔡志波','周存理','滕千礼']
+user = init_user()
+USER = user.userlist
 SIMP = ['[',']','#',"'"]
 
 def getYesterday():
@@ -194,7 +197,7 @@ def data_process(dir_prefix):
     return msg
 
 if __name__ == '__main__':
-
+    
     dir_prefix="/home/cywang/daily_check"
     msg = data_process(dir_prefix)
     print msg

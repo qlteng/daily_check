@@ -112,6 +112,8 @@ def acc_time(time_list):
 def sum_time(time_list):
 
     time_delta = acc_time(time_list[1::2])-acc_time(time_list[0::2])
+    if time_delta < datetime.timedelta(0):
+        time_delta += datetime.timedelta(days=1)
     seconds = time_delta.total_seconds()
     return str(time_delta)[:-3],int(seconds)
 
@@ -198,6 +200,6 @@ def data_process(dir_prefix):
 
 if __name__ == '__main__':
     
-    dir_prefix="/home/cywang/daily_check"
+    dir_prefix="/home/daily_check/check_data/daily_check"
     msg = data_process(dir_prefix)
     print msg

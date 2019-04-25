@@ -1,0 +1,653 @@
+Getting uuid of QR code.
+2019-04-22 12:05:46,748 login.py[line:44] INFO Getting uuid of QR code.
+Downloading QR code.
+2019-04-22 12:05:46,936 login.py[line:47] INFO Downloading QR code.
+                                                  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MM              MMMM  MMMMMM    MMMMMMMMMM    MMMM  MM  MMMMMM              MM
+MM  MMMMMMMMMM  MM    MMMM    MMMMMMMM    MMMMMMMM  MM  MMMMMM  MMMMMMMMMM  MM
+MM  MM      MM  MM      MMMMMM          MMMM      MM        MM  MM      MM  MM
+MM  MM      MM  MM  MMMMMMMM  MM        MM    MMMM    MM  MMMM  MM      MM  MM
+MM  MM      MM  MM      MMMMMM  MMMMMM    MM      MMMM  MM  MM  MM      MM  MM
+MM  MMMMMMMMMM  MM  MMMM    MMMM    MM  MM    MMMM  MM  MM  MM  MMMMMMMMMM  MM
+MM              MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM              MM
+MMMMMMMMMMMMMMMMMMMM  MMMMMM        MM      MMMMMMMMMM      MMMMMMMMMMMMMMMMMM
+MMMMMM  MMMM              MMMM  MMMM  MM        MMMMMM  MMMM  MM          MMMM
+MM  MMMM      MM  MMMM  MM  MMMMMM  MM  MMMM  MMMMMM      MMMMMM  MMMMMM    MM
+MMMMMM      MM      MM          MM        MM  MMMM  MMMM  MM    MM  MMMMMM  MM
+MM      MMMMMMMM  MM  MMMM    MM  MMMM    MM      MMMM  MMMMMMMM      MM  MMMM
+MM  MM  MMMMMM      MMMM  MMMMMMMMMM        MMMM    MMMM    MM    MMMM      MM
+MM    MMMMMMMMMMMMMMMM    MMMM  MM      MMMMMM        MM          MMMM  MM  MM
+MMMMMMMM    MM        MMMMMMMMMMMMMMMMMMMMMM  MM  MM      MMMM  MMMM    MM  MM
+MMMMMMMMMMMMMMMMMMMM    MMMMMM      MM  MMMMMMMM    MM          MMMM  MM    MM
+MMMM      MM    MM      MMMMMM        MM      MMMMMMMMMMMMMMMM  MMMMMMMMMM  MM
+MMMM          MMMMMM  MM  MM          MMMMMM    MMMM  MM    MM    MMMM  MM  MM
+MMMMMM  MM  MM  MM    MM  MMMMMM  MM            MM  MMMM  MMMMMM  MMMM  MM  MM
+MM  MM    MMMMMM  MM  MM    MMMM  MM  MM  MMMM  MMMMMM  MMMM          MMMM  MM
+MM        MMMM    MM    MM    MM      MM  MMMM  MM    MMMM  MM  MMMM  MM  MMMM
+MM  MM  MM  MMMMMM    MM    MMMM  MMMM    MMMM  MMMM      MMMM    MMMMMM    MM
+MM  MM  MMMMMM  MMMM    MM          MMMMMM  MMMMMM    MM    MMMM    MM  MM  MM
+MM        MMMMMM        MM  MM    MM    MMMM    MMMMMM    MMMM    MMMMMMMMMMMM
+MMMMMM    MM      MMMMMM        MMMMMM      MM  MMMM    MM  MM        MM  MMMM
+MMMM    MMMMMMMM  MM          MM    MM  MMMM    MMMM  MMMM        MM  MM    MM
+MM      MMMM        MMMM  MM      MM      MMMM    MM  MM  MM    MM    MMMM  MM
+MMMMMMMM  MMMMMMMM  MM  MMMMMM    MM    MM    MMMMMMMMMMMM      MMMM  MMMM  MM
+MM      MMMMMM  MM        MM            MM  MMMM    MMMM              MMMMMMMM
+MMMMMMMMMMMMMMMMMM  MMMMMMMMMMMMMMMM    MMMM    MM    MMMM  MMMMMM    MMMM  MM
+MM              MM          MM    MM  MMMMMMMMMM    MMMMMM  MM  MM      MM  MM
+MM  MMMMMMMMMM  MM      MM  MMMM              MM    MMMMMM  MMMMMM    MM    MM
+MM  MM      MM  MMMM  MM  MM  MMMM      MMMMMMMM    MM              MMMMMMMMMM
+MM  MM      MM  MMMMMM  MMMM    MM    MMMM  MM  MM  MMMM  MMMMMMMM      MM  MM
+MM  MM      MM  MM          MM  MMMM  MMMM  MM  MM      MMMMMMMMMM    MM    MM
+MM  MMMMMMMMMM  MMMMMMMM    MM  MM    MM  MMMM      MM  MM    MMMM  MMMMMMMMMM
+MM              MMMM  MM      MMMM    MM  MM    MM  MMMMMM  MM  MMMM  MMMM  MM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+Please scan the QR code to log in.
+2019-04-22 12:05:47,032 login.py[line:50] INFO Please scan the QR code to log in.
+Please press confirm on your phone.
+2019-04-22 12:05:51,806 login.py[line:60] INFO Please press confirm on your phone.
+Loading the contact, this may take a little while.
+2019-04-22 12:05:54,437 login.py[line:70] INFO Loading the contact, this may take a little while.
+[H[JLogin successfully as 赵公子ฅ
+2019-04-22 12:05:57,132 login.py[line:80] INFO Login successfully as 赵公子ฅ
+2019-04-22 12:05:59,128 base.py[line:436] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2019-04-22 12:05:59,128 base.py[line:436] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2019-04-22 12:05:59,129 base.py[line:436] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2019-04-22 12:05:59,129 base.py[line:436] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2019-04-22 12:05:59,130 base.py[line:878] INFO Added job "data_process" to job store "default"
+2019-04-22 12:05:59,130 base.py[line:878] INFO Added job "send_msg" to job store "default"
+2019-04-22 12:05:59,131 base.py[line:878] INFO Added job "send_msg" to job store "default"
+2019-04-22 12:05:59,131 base.py[line:878] INFO Added job "send_msg" to job store "default"
+2019-04-22 12:05:59,131 base.py[line:162] INFO Scheduler started
+Start auto replying.
+2019-04-22 12:05:59,132 register.py[line:85] INFO Start auto replying.
+Log in time out, reloading QR code.
+2019-04-22 12:06:43,110 login.py[line:67] INFO Log in time out, reloading QR code.
+Getting uuid of QR code.
+2019-04-22 12:06:43,110 login.py[line:44] INFO Getting uuid of QR code.
+Downloading QR code.
+2019-04-22 12:06:43,168 login.py[line:47] INFO Downloading QR code.
+                                                  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MM              MM  MMMM  MM      MM  MM  MM  MM          MMMM              MM
+MM  MMMMMMMMMM  MMMMMMMMMM  MMMM  MM    MM  MM            MMMM  MMMMMMMMMM  MM
+MM  MM      MM  MMMMMM          MM  MM  MM      MMMMMM  MM  MM  MM      MM  MM
+MM  MM      MM  MM    MMMMMM  MMMM  MM      MM      MMMMMMMMMM  MM      MM  MM
+MM  MM      MM  MMMMMM  MMMMMMMM  MM    MMMMMMMMMMMM        MM  MM      MM  MM
+MM  MMMMMMMMMM  MMMM  MM  MMMM  MM      MM  MMMM            MM  MMMMMMMMMM  MM
+MM              MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM              MM
+MMMMMMMMMMMMMMMMMMMMMMMMMM      MM      MMMM  MM  MM    MM  MMMMMMMMMMMMMMMMMM
+MMMMMM  MM      MM  MM    MM  MM    MMMM      MM  MM      MM  MMMMMM  MMMM  MM
+MM      MM  MMMMMMMMMM        MM  MM      MMMM    MMMM  MMMMMMMMMMMM    MM  MM
+MMMM    MM  MM  MM    MMMM  MM    MMMMMMMMMMMMMM  MM  MMMMMMMM  MMMM  MM    MM
+MM  MMMM    MMMMMMMM  MM    MMMM    MM  MMMMMM    MM    MM    MM  MMMMMMMMMMMM
+MM              MM      MMMM  MM    MM  MM    MMMMMM  MMMM      MMMMMMMMMM  MM
+MM  MMMMMM    MM  MM  MMMMMM    MM    MM  MM    MM  MMMMMM  MM  MMMM        MM
+MMMM  MMMM  MM  MM    MM  MM  MM    MMMM  MMMMMMMM  MM  MMMM      MMMM      MM
+MMMM          MM  MM      MM    MM  MMMM  MM  MM  MM    MM  MM    MMMMMMMM  MM
+MMMMMM  MM  MM    MMMM              MMMMMM  MMMM  MM  MM  MM      MM  MM    MM
+MM  MM  MM    MMMMMMMMMM  MMMM  MM  MM  MM  MM    MMMMMMMM      MMMM        MM
+MM  MM              MMMM    MM  MMMMMM    MM  MM      MMMMMM  MMMMMM        MM
+MM      MMMM  MMMMMMMMMM    MMMMMMMMMMMMMMMM      MM      MMMM  MM  MMMM    MM
+MMMM    MMMM    MM  MM  MMMMMM  MM  MMMM  MMMM      MMMM          MMMMMMMMMMMM
+MMMMMM        MM    MMMM  MMMMMMMMMM        MM    MMMM  MMMM    MMMM  MM    MM
+MMMM      MM      MMMM  MM    MMMM    MM      MM    MMMMMM  MMMMMM          MM
+MMMMMM  MMMM  MM    MM  MM  MM  MMMMMM    MM      MM    MMMM  MMMMMM  MMMM  MM
+MMMM      MMMM  MMMM  MMMM    MM        MM  MMMM  MMMM    MM      MMMMMM    MM
+MMMM  MM      MMMMMMMM  MM  MM            MMMM    MMMMMMMM      MMMM    MM  MM
+MM  MM          MM      MMMMMM  MMMM    MMMM    MMMMMMMMMM  MM    MMMM      MM
+MMMM      MMMMMM    MMMM  MM    MMMMMMMM    MMMM  MM  MMMM  MM    MM  MM    MM
+MM  MM  MM  MM      MMMMMMMMMM        MM      MMMMMM  MMMM            MM  MMMM
+MMMMMMMMMMMMMMMMMM  MMMM  MM  MM          MMMM      MMMM    MMMMMM  MMMM    MM
+MM              MMMM    MM      MMMMMMMM  MM  MMMMMM  MM    MM  MM  MM      MM
+MM  MMMMMMMMMM  MM  MM        MMMMMM    MM  MMMM  MM  MM    MMMMMM  MMMMMM  MM
+MM  MM      MM  MM  MMMMMMMMMMMMMM    MM  MM  MM        MM            MM  MMMM
+MM  MM      MM  MMMM  MM            MMMM    MM        MMMMMM  MM    MM      MM
+MM  MM      MM  MM  MM    MM      MMMMMM            MM    MM  MM    MMMMMM  MM
+MM  MMMMMMMMMM  MMMM  MMMM    MM    MMMM  MMMMMMMM          MMMM      MM  MMMM
+MM              MMMMMMMM      MM    MMMM  MMMMMM  MMMMMM          MMMMMM    MM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+Please scan the QR code to log in.
+2019-04-22 12:06:43,266 login.py[line:50] INFO Please scan the QR code to log in.
+Log in time out, reloading QR code.
+2019-04-22 12:06:57,420 login.py[line:67] INFO Log in time out, reloading QR code.
+Getting uuid of QR code.
+2019-04-22 12:06:57,420 login.py[line:44] INFO Getting uuid of QR code.
+Downloading QR code.
+2019-04-22 12:06:57,482 login.py[line:47] INFO Downloading QR code.
+                                                  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MM              MM  MMMMMM  MM    MM  MMMMMMMMMM          MMMM              MM
+MM  MMMMMMMMMM  MMMMMMMMMM        MM    MM    MM          MMMM  MMMMMMMMMM  MM
+MM  MM      MM  MMMMMM        MMMM  MM  MMMMMMMMMMMMMM  MM  MM  MM      MM  MM
+MM  MM      MM  MM    MMMMMM    MM  MM  MM    MM    MMMMMMMMMM  MM      MM  MM
+MM  MM      MM  MMMMMM    MM  MM  MM      MMMMMMMMMM        MM  MM      MM  MM
+MM  MMMMMMMMMM  MMMM  MM      MMMM      MM  MM              MM  MMMMMMMMMM  MM
+MM              MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM              MM
+MMMMMMMMMMMMMMMMMMMMMMMM        MM      MMMM  MM  MM    MM  MMMMMMMMMMMMMMMMMM
+MMMMMM  MM      MM  MM    MMMM      MMMM          MM      MM  MMMMMM  MMMM  MM
+MM  MM      MMMMMMMMMM        MM  MMMM    MMMMMMMM  MM  MMMM    MMMM    MM  MM
+MMMM  MM        MM  MM  MM  MM  MMMMMM  MMMMMMMM      MMMMMMMM      MMMM    MM
+MM  MMMM      MMMMMM  MM    MMMMMMMM    MMMMMM  MMMM      MM  MMMM  MMMMMMMMMM
+MM    MMMMMM    MM  MMMMMMMM  MMMMMMMM  MM    MM      MMMM      MMMMMMMMMM  MM
+MM  MMMMMM    MM  MM  MMMMMM    MM  MMMM  MM    MM  MMMMMM  MM  MMMM        MM
+MMMM        MM  MM        MM  MMMMMM  MM  MMMMMM  MMMM  MMMM      MMMM      MM
+MMMM  MM      MM  MM  MM  MM        MMMM  MM  MM        MM  MM    MMMMMMMM  MM
+MMMMMM  MM  MM      MMMM            MM  MM  MMMM  MM  MM  MM      MM  MM    MM
+MM  MM  MM    MMMM  MMMMMM  MM  MM  MMMMMMMM      MMMMMMMM      MMMM        MM
+MMMM                MMMM  MMMM  MMMMMM  MMMMMMMM      MMMMMM  MMMMMM        MM
+MMMM    MMMM  MM  MMMMMM  MMMM  MMMMMMMMMMMMMMMM  MM      MMMM  MM  MMMM    MM
+MM  MM  MMMM        MM        MMMM  MMMMMM  MMMM    MMMM          MMMMMMMMMMMM
+MMMMMM        MMMMMMMMMM  MM    MMMM    MMMMMMMM  MMMM  MMMM    MMMM  MM    MM
+MM  MM    MM        MM      MM  MM    MM    MMMM    MMMMMM      MM          MM
+MMMMMM  MMMM  MM  MMMM  MM  MM  MMMMMM      MMMM  MM    MMMMMMMMMMMM  MMMMMMMM
+MM  MM    MMMM    MM  MMMM  MMMM        MM  MM    MMMM    MM    MM  MMMMMMMMMM
+MMMM  MMMM    MMMMMM    MM  MM    MMMM    MMMM    MMMMMM    MM  MMMMMMMMMM  MM
+MM  MMMMMM      MM      MMMMMM  MMMM    MMMM    MMMMMMMMMMMMMM  MMMM        MM
+MMMM    MMMM  MM    MMMM  MM        MM      MMMM  MM  MM  MMMM      MMMM    MM
+MM  MMMM  MM          MMMMMMMM  MMMM  MM      MMMMMM  MMMM                MMMM
+MMMMMMMMMMMMMMMMMM    MM  MM  MMMM  MM    MMMM  MM  MMMM    MMMMMM  MMMM    MM
+MM              MMMMMM  MM                MM  MMMM    MM    MM  MM  MM      MM
+MM  MMMMMMMMMM  MM  MM        MMMMMM    MM  MMMMMMMM  MM    MMMMMM  MMMMMM  MM
+MM  MM      MM  MM  MMMMMM  MMMM      MM  MM  MMMM      MM            MM  MMMM
+MM  MM      MM  MMMM  MMMMMMMM      MMMM    MM        MMMMMM  MM    MM      MM
+MM  MM      MM  MM  MM    MMMM    MMMMMMMM    MM    MM    MM  MM    MMMMMM  MM
+MM  MMMMMMMMMM  MMMM  MMMM    MM    MMMMMM    MMMM          MMMM      MM  MMMM
+MM              MMMMMMMMMM  MM      MMMM  MM  MM      MM          MMMMMM    MM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+Please scan the QR code to log in.
+2019-04-22 12:06:57,571 login.py[line:50] INFO Please scan the QR code to log in.
+Log in time out, reloading QR code.
+2019-04-22 12:07:07,391 login.py[line:67] INFO Log in time out, reloading QR code.
+Getting uuid of QR code.
+2019-04-22 12:07:07,391 login.py[line:44] INFO Getting uuid of QR code.
+Downloading QR code.
+2019-04-22 12:07:07,457 login.py[line:47] INFO Downloading QR code.
+                                                  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MM              MMMM    MM      MMMMMM    MMMMMMMM  MM  MMMMMM              MM
+MM  MMMMMMMMMM  MMMM  MMMM      MMMMMMMMMM  MM  MMMM  MMMMMMMM  MMMMMMMMMM  MM
+MM  MM      MM  MM        MMMMMM    MM      MM  MMMM  MM    MM  MM      MM  MM
+MM  MM      MM  MM  MM    MM  MM  MM  MM        MMMM        MM  MM      MM  MM
+MM  MM      MM  MMMM  MMMM  MM  MM  MM  MMMM  MM  MM    MMMMMM  MM      MM  MM
+MM  MMMMMMMMMM  MMMMMM  MMMMMM    MM  MMMM        MMMM  MMMMMM  MMMMMMMMMM  MM
+MM              MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM              MM
+MMMMMMMMMMMMMMMMMMMM  MMMMMMMM      MMMMMMMMMMMMMM    MM    MMMMMMMMMMMMMMMMMM
+MMMMMMMM    MM    MM      MM  MMMMMMMMMM  MM      MMMMMMMMMMMMMMMMMM    MMMMMM
+MMMMMM    MM  MM    MMMMMMMMMMMM    MMMMMM    MMMMMM  MM      MM      MM  MMMM
+MMMM  MMMM  MM  MM  MMMM    MM    MMMM  MMMM      MM  MM          MMMMMMMM  MM
+MMMM        MMMM  MMMMMM  MM  MM          MM  MM  MMMM  MM        MM    MM  MM
+MM  MMMMMM            MM  MMMMMMMMMM  MM    MMMMMMMMMMMM    MM    MMMMMM    MM
+MMMMMMMM  MM  MM              MMMM          MM  MMMMMM        MMMM  MM  MMMMMM
+MMMMMMMM  MM      MMMMMM  MMMM          MM    MM  MM  MM  MM    MM          MM
+MM  MMMMMM  MMMMMM    MMMM  MMMMMM  MM  MM  MM  MM  MMMM  MM  MMMM        MMMM
+MMMMMMMM            MMMMMM        MM    MM        MM  MMMM  MM    MMMM  MM  MM
+MM        MM  MMMM        MMMM    MMMMMM    MMMM      MM  MM  MM  MMMMMM  MMMM
+MMMMMM  MM  MM    MM  MMMMMMMMMM  MM      MM    MM  MMMM  MMMMMM  MMMM  MM  MM
+MMMM  MM  MMMMMM  MM  MM  MM      MM      MM  MMMM    MMMMMM  MMMMMM  MMMMMMMM
+MMMM  MM  MM      MM    MMMMMMMM    MMMMMMMMMM          MM      MM    MMMMMMMM
+MM  MMMMMMMMMMMM  MM        MM      MMMMMMMMMMMMMM    MM    MMMM    MM  MM  MM
+MMMMMM  MM  MM        MM      MM  MMMMMM        MM  MMMM  MMMM  MM  MMMMMM  MM
+MM  MM        MMMMMM  MM  MM  MM    MMMMMM          MM            MMMM    MMMM
+MMMM    MMMM      MMMMMMMM  MMMMMMMMMM  MM  MMMMMMMM    MMMM    MMMM  MMMM  MM
+MM    MM  MMMMMMMM  MM    MMMMMMMMMM  MM        MM  MM  MM    MM    MMMM  MMMM
+MM    MM    MM    MM    MMMM  MM  MMMMMM    MM  MMMM        MM  MMMM  MM    MM
+MM  MMMM  MMMMMMMMMM    MM  MMMM  MMMM  MMMM    MM  MM        MMMMMM    MMMMMM
+MM  MM  MMMM        MMMM  MMMM  MM  MM      MM    MM  MM              MMMMMMMM
+MMMMMMMMMMMMMMMMMM  MM      MMMM  MMMMMMMMMM  MMMMMM  MMMM  MMMMMM        MMMM
+MM              MM    MM    MM  MMMMMM  MMMMMMMM    MMMMMM  MM  MM      MM  MM
+MM  MMMMMMMMMM  MMMMMMMMMMMM      MM  MMMMMM  MM  MM    MM  MMMMMM    MM  MMMM
+MM  MM      MM  MM  MM  MM            MMMM  MMMMMM  MMMM            MMMM  MMMM
+MM  MM      MM  MM  MMMM      MMMMMM  MMMM    MMMMMMMM      MM  MMMM  MMMMMMMM
+MM  MM      MM  MMMM  MM  MMMM  MM    MM    MM  MM  MM  MM  MMMM            MM
+MM  MMMMMMMMMM  MMMMMM    MMMM  MMMMMM  MM    MMMMMMMM  MMMMMM  MM  MM      MM
+MM              MMMM  MM  MMMM  MM    MMMM    MMMM  MMMMMM  MM  MMMM  MMMM  MM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+Please scan the QR code to log in.
+2019-04-22 12:07:07,558 login.py[line:50] INFO Please scan the QR code to log in.
+Log in time out, reloading QR code.
+2019-04-22 12:08:44,485 login.py[line:67] INFO Log in time out, reloading QR code.
+Getting uuid of QR code.
+2019-04-22 12:08:44,485 login.py[line:44] INFO Getting uuid of QR code.
+Downloading QR code.
+2019-04-22 12:08:44,545 login.py[line:47] INFO Downloading QR code.
+                                                  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MM              MMMM    MM  MM  MMMMMM  MMMMMMMMMM  MM  MMMMMM              MM
+MM  MMMMMMMMMM  MMMM  MM  MMMM  MMMMMMMMMMMM  MMMMMM  MMMMMMMM  MMMMMMMMMM  MM
+MM  MM      MM  MM      MMMMMM      MM      MMMMMMMM  MM    MM  MM      MM  MM
+MM  MM      MM  MM  MM  MM    MM  MM  MMMM  MMMMMMMM        MM  MM      MM  MM
+MM  MM      MM  MMMM  MM    MM  MM  MM    MMMM    MM    MMMMMM  MM      MM  MM
+MM  MMMMMMMMMM  MMMMMM  MM  MM    MM  MM  MM  MM  MMMM  MMMMMM  MMMMMMMMMM  MM
+MM              MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM              MM
+MMMMMMMMMMMMMMMMMMMM  MMMM  MMMM    MMMM    MMMMMM    MM    MMMMMMMMMMMMMMMMMM
+MMMMMMMM    MM    MM      MMMM  MM  MMMMMMMM  MM    MMMMMMMMMMMMMMMM    MMMMMM
+MMMM  MM  MM  MM    MMMMMMMMMMMMMM    MMMM    MMMM    MM    MMMM      MM  MMMM
+MMMM    MM  MM  MM          MM  MM    MMMMMM    MMMM  MM          MMMMMMMM  MM
+MMMM    MMMM  MM  MM  MM  MM  MMMMMM  MM  MM  MMMMMMMM    MM    MMMM    MM  MM
+MM  MM      MM            MMMMMM  MM  MM    MMMM  MMMMMM    MM    MMMM      MM
+MMMMMM    MMMMMM    MMMM      MM  MM        MM  MM  MM        MMMM  MM  MMMMMM
+MMMMMMMMMMMMMM    MM      MMMM  MM  MM  MM    MMMM    MM  MM    MM          MM
+MM  MM  MMMM  MMMM      MM  MMMMMMMM  MMMM  MM  MM  MMMM  MM  MMMM        MMMM
+MMMMMMMM  MMMM    MMMMMMMM      MMMM  MMMM      MMMM  MMMM  MM    MMMM  MM  MM
+MM        MMMMMMMMMM    MM  MM    MMMMMMMMMMMMMM      MM  MM  MM  MMMMMM  MMMM
+MMMM    MM  MM  MM    MM  MM  MM  MM          MMMM  MMMM  MMMMMM  MMMM  MM  MM
+MMMMMMMM  MMMMMMMMMM  MM  MMMM    MM        MM  MM    MMMMMM  MMMMMM  MMMMMMMM
+MMMM  MM  MM    MMMM        MMMM    MMMMMMMMMMMM    MMMMMM      MM    MMMMMMMM
+MMMM  MMMMMMMMMMMM            MM    MMMM    MMMMMM    MM    MMMM    MM  MMMMMM
+MM  MM  MM  MM  MMMM  MMMM    MM  MMMMMM  MMMMMMMM  MMMM  MM  MMMM  MMMM    MM
+MMMM          MM      MMMMMM        MMMM    MM      MM      MMMM  MMMM  MMMMMM
+MM        MM      MMMMMMMM    MMMM  MM        MMMMMM    MMMMMM  MMMM  MMMMMMMM
+MM  MMMMMMMMMMMMMM  MM    MMMMMM    MMMM        MM  MM              MMMM  MMMM
+MM    MMMM  MM    MMMMMMMMMM  MM  MMMMMM    MM  MMMM        MM  MM  MM      MM
+MM  MM        MMMMMMMMMMMM  MMMMMMMMMM  MMMM    MM  MM        MM  MM    MMMMMM
+MM  MMMM                  MMMM  MMMMMMMM    MM        MM                MMMMMM
+MMMMMMMMMMMMMMMMMM    MM    MMMM  MMMM  MMMM  MMMMMM  MMMM  MMMMMM        MMMM
+MM              MM  MMMM    MM    MM    MMMMMMMM    MMMMMM  MM  MM      MM  MM
+MM  MMMMMMMMMM  MMMM  MMMMMM    MM    MMMMMM  MM  MM    MM  MMMMMM    MM  MMMM
+MM  MM      MM  MM      MM            MMMM  MMMMMM  MMMM            MMMM  MMMM
+MM  MM      MM  MM  MMMMMMMM  MMMMMM    MMMMMMMMMMMMMM      MM  MMMM  MMMMMMMM
+MM  MM      MM  MMMM  MMMMMM  MMMM    MM  MM  MMMM  MMMMMM  MMMM            MM
+MM  MMMMMMMMMM  MMMMMM  MMMMMM  MMMMMM    MM    MMMMMMMMMMMMMM  MM  MM      MM
+MM              MMMM  MMMM  MM  MM    MMMM      MM  MMMMMM  MM  MMMM  MMMM  MM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+Please scan the QR code to log in.
+2019-04-22 12:08:44,624 login.py[line:50] INFO Please scan the QR code to log in.
+Log in time out, reloading QR code.
+2019-04-22 12:10:15,718 login.py[line:67] INFO Log in time out, reloading QR code.
+Getting uuid of QR code.
+2019-04-22 12:10:15,719 login.py[line:44] INFO Getting uuid of QR code.
+Downloading QR code.
+2019-04-22 12:10:15,778 login.py[line:47] INFO Downloading QR code.
+                                                  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MM              MMMM    MM      MMMMMM  MMMM  MMMM  MM  MMMMMM              MM
+MM  MMMMMMMMMM  MMMM  MM        MMMMMMMM  MMMM  MMMM  MMMMMMMM  MMMMMMMMMM  MM
+MM  MM      MM  MM      MM  MM      MM  MMMMMMMMMMMM  MM    MM  MM      MM  MM
+MM  MM      MM  MM  MM      MMMM  MM  MMMMMMMM  MMMM        MM  MM      MM  MM
+MM  MM      MM  MMMM  MM  MMMM  MM  MM  MM  MM    MM    MMMMMM  MM      MM  MM
+MM  MMMMMMMMMM  MMMMMM  MM  MMMM  MM  MMMM    MM  MMMM  MMMMMM  MMMMMMMMMM  MM
+MM              MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM              MM
+MMMMMMMMMMMMMMMMMMMM  MM  MM  MM    MMMMMMMM  MMMM    MM    MMMMMMMMMMMMMMMMMM
+MMMMMMMM    MM    MM      MM  MMMMMMMMMM  MM      MMMMMMMMMMMMMMMMMM    MMMMMM
+MMMMMM  MM    MM    MMMMMMMMMM      MMMMMM      MMMM  MM      MM          MMMM
+MMMM    MMMMMM  MM          MM    MMMM  MMMM    MM    MM          MM    MM  MM
+MMMM  MM  MM  MM  MMMM    MM  MM  MM      MM  MMMM  MM    MM    MMMM    MM  MM
+MM  MMMMMMMM          MM  MMMMMMMMMM        MMMM  MMMMMM    MM    MM        MM
+MMMMMM  MM    MM    MMMM      MMMM          MM    MMMM        MMMM  MM  MMMMMM
+MMMMMM  MM        MMMM    MMMM  MMMMMM  MM    MMMM    MM  MM    MM          MM
+MM  MMMM      MMMM  MM  MM  MMMM  MMMMMMMM  MM  MM  MMMM  MM  MMMM        MMMM
+MMMMMMMM                MM        MM  MMMM      MMMM  MMMM  MM    MMMM  MM  MM
+MMMM      MM  MMMMMM  MM          MMMM  MM  MMMM      MM  MM  MM  MMMMMM  MMMM
+MMMMMM  MM  MM        MMMMMMMM    MM            MM  MMMM  MMMMMM  MMMM  MM  MM
+MM    MM  MMMMMMMM    MMMMMMMM    MM    MMMMMMMMMM    MMMMMM  MMMMMM  MMMMMMMM
+MM  MMMM  MM    MMMM    MMMM  MM    MMMMMMMMMM      MM  MM      MM    MMMMMMMM
+MM  MMMMMMMMMMMM  MM      MMMM      MMMM      MMMM          MMMM    MM    MMMM
+MM      MM  MM  MMMM  MMMMMM      MMMMMMMMMMMM  MM  MMMM  MMMM  MM  MMMMMM  MM
+MM            MMMMMM  MM      MM    MMMM    MM      MM      MMMM  MMMM      MM
+MMMM    MMMM    MMMMMMMMMM  MMMMMMMMMM  MM  MM  MMMM    MMMMMM  MM    MMMM  MM
+MM  MM    MMMMMMMM  MM    MMMMMM  MMMMMM        MM  MM      MM  MM  MMMM  MMMM
+MM    MM  MM      MM    MMMM  MMMMMMMM      MM  MMMM      MMMM      MM      MM
+MM  MMMM      MMMMMMMMMMMM  MMMM    MMMMMMMM    MM  MM  MMMM  MM  MM    MMMMMM
+MM  MM              MMMM  MMMM  MMMM        MM        MM                MMMMMM
+MMMMMMMMMMMMMMMMMM  MMMM    MMMMMMMMMMMMMMMM  MM  MM  MMMM  MMMMMM        MMMM
+MM              MM    MM    MM  MMMMMMMMMMMMMMMM  MMMMMMMM  MM  MM      MM  MM
+MM  MMMMMMMMMM  MMMM    MMMM      MM  MMMMMM  MMMM      MM  MMMMMM    MM  MMMM
+MM  MM      MM  MM      MMMM    MM  MM  MM  MMMM    MMMM            MMMM  MMMM
+MM  MM      MM  MM  MMMM    MMMMMMMM      MMMMMMMMMM        MM  MMMM  MMMMMMMM
+MM  MM      MM  MMMM  MM      MMMM    MM        MM    MMMM  MMMM            MM
+MM  MMMMMMMMMM  MMMMMM    MM  MMMMMMMM  MM  MMMMMMMMMM  MMMMMM  MM  MM      MM
+MM              MMMM  MM  MM    MM    MMMM      MMMM  MMMM  MM  MMMM  MMMM  MM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+Please scan the QR code to log in.
+2019-04-22 12:10:15,882 login.py[line:50] INFO Please scan the QR code to log in.
+Log in time out, reloading QR code.
+2019-04-22 12:10:30,989 login.py[line:67] INFO Log in time out, reloading QR code.
+Getting uuid of QR code.
+2019-04-22 12:10:30,989 login.py[line:44] INFO Getting uuid of QR code.
+Downloading QR code.
+2019-04-22 12:10:31,055 login.py[line:47] INFO Downloading QR code.
+                                                  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MM              MMMM  MMMM      MMMMMMMMMMMMMMMMMM  MM  MMMMMM              MM
+MM  MMMMMMMMMM  MMMM  MMMM      MMMMMMMM        MMMM  MMMMMMMM  MMMMMMMMMM  MM
+MM  MM      MM  MM        MM  MM    MM        MMMMMM  MM    MM  MM      MM  MM
+MM  MM      MM  MM  MM  MM  MMMM  MM  MMMM      MMMM        MM  MM      MM  MM
+MM  MM      MM  MMMM  MM      MMMM  MM  MM    MM  MM    MMMMMM  MM      MM  MM
+MM  MMMMMMMMMM  MMMMMM    MMMM    MM  MM  MMMMMM  MMMM  MMMMMM  MMMMMMMMMM  MM
+MM              MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM              MM
+MMMMMMMMMMMMMMMMMMMM  MMMM    MM    MMMM  MM    MM    MM    MMMMMMMMMMMMMMMMMM
+MMMMMMMM    MM    MM    MMMMMM  MMMMMMMM  MM        MMMMMMMMMMMMMMMM    MMMMMM
+MMMMMM  MMMM  MM    MMMMMMMMMMMM      MMMM    MMMMMM  MM      MM    MMMM  MMMM
+MMMM            MM  MM      MM  MM      MMMM          MM          MM  MMMM  MM
+MMMM  MMMM    MM  MM  MM  MM  MM  MMMMMM  MM  MMMM  MM  MM          MM  MM  MM
+MM  MM  MMMM              MMMMMM  MM  MM    MMMM    MMMM    MM    MMMMMM    MM
+MMMMMMMMMM    MM              MM    MMMM    MM    MMMM        MMMM  MM  MMMMMM
+MMMMMMMMMM        MMMMMM  MMMM    MMMM  MM    MM      MM  MM    MM          MM
+MM  MM    MMMMMMMM  MM  MM  MMMMMMMMMM  MM  MM  MM  MMMM  MM  MMMM        MMMM
+MMMMMMMM  MMMM      MMMMMMMM      MMMMMMMM        MM  MMMM  MM    MMMM  MM  MM
+MMMM      MMMMMM      MMMMMM      MMMMMMMMMM  MM      MM  MM  MM  MMMMMM  MMMM
+MMMMMM  MM  MM    MM  MM  MM      MM          MMMM  MMMM  MMMMMM  MMMM  MM  MM
+MMMMMMMM  MMMMMM      MMMMMMMMMM  MM            MM    MMMMMM  MMMMMM  MMMMMMMM
+MM    MM  MM    MM                  MMMMMM              MM      MM    MMMMMMMM
+MM  MMMMMMMMMMMMMMMM    MM  MM      MMMMMM  MM  MM    MM    MMMM    MM  MMMMMM
+MM      MM  MM        MMMM        MMMMMMMM  MMMMMM  MMMM  MMMM  MM  MMMMMM  MM
+MM            MM  MM  MMMM    MM    MMMM            MM        MM  MMMM  MM  MM
+MMMM      MM      MMMMMMMM    MMMMMMMM      MM  MMMM    MM        MM  MM    MM
+MM  MMMM  MMMMMMMM  MM    MMMM  MMMMMMMM      MMMM  MM  MM    MMMM    MM  MMMM
+MM    MMMMMM      MM    MMMM  MMMM          MM  MMMM      MMMM    MMMM      MM
+MM  MM  MMMM  MMMMMM    MM  MMMMMMMM  MMMMMM    MM  MM        MMMM      MMMMMM
+MM  MMMM    MM      MMMM  MMMM  MMMMMMMM    MM    MM  MM            MMMMMMMMMM
+MMMMMMMMMMMMMMMMMM          MMMM        MMMM  MMMMMM  MMMM  MMMMMM        MMMM
+MM              MM  MMMM    MM    MM    MMMMMMMM    MMMMMM  MM  MM      MM  MM
+MM  MMMMMMMMMM  MMMMMM  MMMM    MM  MM  MMMM  MM        MM  MMMMMM    MM  MMMM
+MM  MM      MM  MM  MMMMMMMM    MM    MMMMMMMMMMMM  MMMM            MMMM  MMMM
+MM  MM      MM  MM  MMMM      MMMMMM      MMMMMMMMMM        MM  MMMM  MMMMMMMM
+MM  MM      MM  MMMM  MM  MM  MMMM    MM  MMMMMMMM  MM  MM  MMMM            MM
+MM  MMMMMMMMMM  MMMMMM    MM  MMMMMMMM    MM    MMMMMM  MMMMMM  MM  MM      MM
+MM              MMMM  MMMMMMMMMMMM    MMMMMMMM  MM  MMMMMM  MM  MMMM  MMMM  MM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+Please scan the QR code to log in.
+2019-04-22 12:10:31,154 login.py[line:50] INFO Please scan the QR code to log in.
+Log in time out, reloading QR code.
+2019-04-22 12:10:37,246 login.py[line:67] INFO Log in time out, reloading QR code.
+Getting uuid of QR code.
+2019-04-22 12:10:37,247 login.py[line:44] INFO Getting uuid of QR code.
+Downloading QR code.
+2019-04-22 12:10:37,302 login.py[line:47] INFO Downloading QR code.
+                                                  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MM              MMMM  MMMMMM    MMMMMMMM  MMMMMMMM  MM  MMMMMM              MM
+MM  MMMMMMMMMM  MMMM  MM  MMMMMMMMMMMMMMMM  MM  MMMM  MMMMMMMM  MMMMMMMMMM  MM
+MM  MM      MM  MM        MM        MM  MMMMMMMMMMMM  MM    MM  MM      MM  MM
+MM  MM      MM  MM  MM  MMMMMM    MM  MM        MMMM        MM  MM      MM  MM
+MM  MM      MM  MMMM  MM    MM  MM  MM  MM  MMMM  MM    MMMMMM  MM      MM  MM
+MM  MMMMMMMMMM  MMMMMM  MM    MM  MM  MMMM    MM  MMMM  MMMMMM  MMMMMMMMMM  MM
+MM              MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM              MM
+MMMMMMMMMMMMMMMMMMMM  MMMM  MM      MMMM  MM    MM    MM    MMMMMMMMMMMMMMMMMM
+MMMMMMMM    MM    MM    MMMM    MMMMMMMM  MM  MM    MMMMMMMMMMMMMMMM    MMMMMM
+MMMM  MMMMMM  MM    MMMMMMMMMM      MMMMMM    MMMMMM  MM    MM            MMMM
+MMMM  MM    MM  MM  MM      MM    MM  MMMMMM    MMMM  MM        MM      MM  MM
+MMMM  MMMMMM  MM  MM      MM  MM  MMMMMM  MM  MMMM  MM    MM      MM    MM  MM
+MM  MM  MMMMMM      MM    MMMMMM  MM        MMMM    MMMM    MM    MMMMMM    MM
+MMMMMMMMMM  MMMM    MM        MM    MMMM    MM      MM        MMMM  MM  MMMMMM
+MMMMMM      MM    MM  MM  MMMM    MMMMMMMM    MMMMMM  MM  MM    MM          MM
+MM  MM        MMMM      MM  MMMM  MM    MM  MM  MMMMMMMM  MM  MMMM        MMMM
+MMMMMM              MM  MM        MMMM  MM      MMMM  MMMM  MM    MMMM  MM  MM
+MMMM      MMMMMMMMMM  MMMMMMMM    MMMM    MM  MM      MM  MM  MM  MMMMMM  MMMM
+MM  MM  MM  MM  MM    MM    MM    MM        MMMMMM  MMMM  MMMMMM  MMMM  MM  MM
+MMMM  MM  MMMMMM      MMMM        MM    MMMMMMMMMM    MMMMMM  MMMMMM  MMMMMMMM
+MM  MMMM  MM    MM      MM          MMMMMMMM        MM  MM      MM    MMMMMMMM
+MMMMMMMMMMMMMMMM        MMMM  MM    MMMMMMMMMMMMMM          MMMM    MM    MMMM
+MM      MM  MM  MMMM  MMMM        MMMMMMMM  MM  MM  MMMM  MMMMMMMM  MMMMMM  MM
+MMMM          MMMMMM  MMMMMM        MMMM  MMMMMM    MM        MM  MMMM    MMMM
+MMMM    MMMM      MMMMMM    MMMMMMMMMM          MMMM    MM  MM  MM    MM    MM
+MM    MMMM  MMMMMM        MMMMMMMMMM  MM      MMMM  MM          MM  MMMM  MMMM
+MM      MMMMMM    MMMM  MMMM  MM  MM        MM  MMMM      MMMM      MM      MM
+MM  MM    MM  MMMMMMMMMMMM  MMMM  MMMMMMMMMM    MM  MM  MM    MMMM      MMMMMM
+MM  MMMM    MM            MMMM  MM          MM    MM  MMMM            MMMMMMMM
+MMMMMMMMMMMMMMMMMM  MM      MMMM    MM  MMMM  MMMM    MMMM  MMMMMM        MMMM
+MM              MM          MM    MM  MMMMMMMMMM    MMMMMM  MM  MM      MM  MM
+MM  MMMMMMMMMM  MMMM  MMMMMM      MMMM  MMMM  MMMMMM    MM  MMMMMM    MM  MMMM
+MM  MM      MM  MM  MM  MM      MM      MMMMMMMMMM  MMMM            MMMM  MMMM
+MM  MM      MM  MM  MM  MM  MMMMMMMM  MMMM    MMMMMM        MM  MMMM  MMMMMMMM
+MM  MM      MM  MMMM  MM        MM    MMMMMM    MM    MMMM  MMMM            MM
+MM  MMMMMMMMMM  MMMMMM  MMMMMM  MMMMMM          MMMMMM  MMMMMM  MM  MM      MM
+MM              MMMM  MM    MM  MM    MMMM      MM  MMMMMM  MM  MMMM  MMMM  MM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+Please scan the QR code to log in.
+2019-04-22 12:10:37,402 login.py[line:50] INFO Please scan the QR code to log in.
+Log in time out, reloading QR code.
+2019-04-22 12:11:44,249 login.py[line:67] INFO Log in time out, reloading QR code.
+Getting uuid of QR code.
+2019-04-22 12:11:44,249 login.py[line:44] INFO Getting uuid of QR code.
+Downloading QR code.
+2019-04-22 12:11:44,304 login.py[line:47] INFO Downloading QR code.
+                                                  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MM              MMMM  MM  MM    MMMMMMMM    MMMMMM  MM  MMMMMM              MM
+MM  MMMMMMMMMM  MMMM  MM  MM  MMMMMMMMMM  MMMMMMMMMM  MMMMMMMM  MMMMMMMMMM  MM
+MM  MM      MM  MM      MMMM  MM    MM  MMMMMMMMMMMM  MM    MM  MM      MM  MM
+MM  MM      MM  MM  MM  MMMM  MM  MM  MMMMMM  MMMMMM        MM  MM      MM  MM
+MM  MM      MM  MMMM  MMMMMMMMMMMM  MM  MMMMMMMM  MM    MMMMMM  MM      MM  MM
+MM  MMMMMMMMMM  MMMMMM  MM        MM  MM  MMMM    MMMM  MMMMMM  MMMMMMMMMM  MM
+MM              MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM              MM
+MMMMMMMMMMMMMMMMMMMM  MMMMMMMM      MMMMMMMMMMMMMM    MM    MMMMMMMMMMMMMMMMMM
+MMMMMMMM    MM    MM    MMMMMMMMMMMMMMMMMMMM  MM    MMMMMMMMMMMMMMMM    MMMMMM
+MMMMMMMMMM    MM      MMMMMMMMMM  MMMMMMMM    MMMM    MM      MM    MM    MMMM
+MMMM    MM      MM  MM      MM    MM    MMMM      MM  MM          MMMMMMMM  MM
+MMMM  MM  MM  MM  MMMM    MM  MM    MMMM  MM  MMMMMMMM  MM              MM  MM
+MM  MM  MM  MM      MMMM  MMMMMM  MMMMMM    MMMMMMMMMMMM    MM    MM        MM
+MMMMMMMM      MM    MM        MM      MM    MM      MM        MMMM  MM  MMMMMM
+MMMMMM            MMMMMM  MMMM  MM    MMMM    MMMM    MM  MM    MM          MM
+MM  MMMM  MMMMMMMM      MM  MMMMMM      MM  MM  MMMMMMMM  MM  MMMM        MMMM
+MMMMMMMM          MMMMMMMM      MMMM  MMMM        MM  MMMM  MM    MMMM  MM  MM
+MM        MMMMMM          MM      MMMM  MM  MMMM      MM  MM  MM  MMMMMM  MMMM
+MM      MM  MM        MMMMMMMMMM  MM    MMMMMM  MM  MMMM  MMMMMM  MMMM  MM  MM
+MM    MM  MMMMMMMM    MM      MM  MM    MMMMMMMMMM    MMMMMM  MMMMMM  MMMMMMMM
+MMMM  MM  MM    MMMM    MMMM  MM    MMMM  MM        MM  MM      MM    MMMMMMMM
+MMMMMMMMMMMMMMMMMM        MMMMMM    MMMM  MM    MM    MM    MMMM    MM    MMMM
+MMMMMM  MM  MM    MM  MM  MM  MM  MMMMMMMMMM    MM  MMMM  MM  MMMM  MMMM    MM
+MM            MMMMMM  MMMM  MMMM    MMMM  MM        MM            MMMM    MMMM
+MMMM      MM      MMMMMMMM      MMMMMM  MM    MMMMMM    MM  MM        MMMM  MM
+MM        MMMMMMMM  MM    MMMMMM      MM      MMMM  MM  MM    MMMM        MMMM
+MM        MMMM    MMMM  MMMM  MMMM          MM  MMMM        MM  MM          MM
+MM  MMMMMM  MMMMMMMMMM  MM  MMMM      MMMMMM    MM  MM  MM    MMMM      MMMMMM
+MM  MM  MM  MM        MM  MMMM        MM    MM    MM  MM            MM  MMMMMM
+MMMMMMMMMMMMMMMMMM  MM      MMMMMM      MMMM  MMMM    MMMM  MMMMMM        MMMM
+MM              MM  MMMM    MM  MM    MMMMMMMMMM  MMMMMMMM  MM  MM      MM  MM
+MM  MMMMMMMMMM  MMMM    MMMM      MMMMMMMMMM  MMMMMM    MM  MMMMMM    MM  MMMM
+MM  MM      MM  MM  MM  MM          MMMMMMMMMMMMMM  MMMM            MMMM  MMMM
+MM  MM      MM  MM  MM  MM    MMMMMM          MMMMMMMM      MM  MMMM  MMMMMMMM
+MM  MM      MM  MMMM  MM        MM    MMMM    MMMM    MMMM  MMMM            MM
+MM  MMMMMMMMMM  MMMMMM    MMMMMMMMMMMM  MM  MM  MMMMMM  MMMMMM  MM  MM      MM
+MM              MMMM  MMMM  MM  MM    MM  MMMMMMMM  MMMMMM  MM  MMMM  MMMM  MM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+Please scan the QR code to log in.
+2019-04-22 12:11:44,394 login.py[line:50] INFO Please scan the QR code to log in.
+Log in time out, reloading QR code.
+2019-04-22 12:11:58,386 login.py[line:67] INFO Log in time out, reloading QR code.
+Getting uuid of QR code.
+2019-04-22 12:11:58,386 login.py[line:44] INFO Getting uuid of QR code.
+Downloading QR code.
+2019-04-22 12:11:58,445 login.py[line:47] INFO Downloading QR code.
+                                                  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MM              MMMM    MMMM    MMMMMM        MMMM  MM  MMMMMM              MM
+MM  MMMMMMMMMM  MMMM  MMMM      MMMMMMMM    MM  MMMM  MMMMMMMM  MMMMMMMMMM  MM
+MM  MM      MM  MM                  MM    MMMM  MMMM  MM    MM  MM      MM  MM
+MM  MM      MM  MM  MM    MMMMMM  MM  MMMM    MMMMMM        MM  MM      MM  MM
+MM  MM      MM  MMMM  MMMMMMMM  MM  MM    MM  MM  MM    MMMMMM  MM      MM  MM
+MM  MMMMMMMMMM  MMMMMM    MMMMMM  MM  MMMMMMMMMM  MMMM  MMMMMM  MMMMMMMMMM  MM
+MM              MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM              MM
+MMMMMMMMMMMMMMMMMMMM  MMMMMM        MMMMMMMM  MMMM    MM    MMMMMMMMMMMMMMMMMM
+MMMMMMMM    MM    MM    MMMM    MMMMMMMM  MM      MMMMMMMMMMMMMMMMMM    MMMMMM
+MMMMMMMM      MM      MMMMMMMM  MM  MMMMMM            MM    MMMMMM        MMMM
+MMMM    MMMM    MM    MM    MM    MMMMMMMMMM      MM  MM        MMMM    MM  MM
+MMMM    MMMMMMMM  MMMMMM  MM  MMMM  MMMM  MM  MM  MMMM  MM          MM  MM  MM
+MM  MMMMMMMM        MM    MMMMMM            MMMM  MMMMMM    MM    MMMMMM    MM
+MMMMMM    MMMMMM      MM      MM            MM  MM  MM        MMMM  MM  MMMMMM
+MMMMMM            MM      MMMM      MM  MM    MM      MM  MM    MM          MM
+MM  MMMM    MMMMMM      MM  MMMMMM    MMMM  MM    MMMMMM  MM  MMMM        MMMM
+MMMMMM      MM      MM  MM        MM    MM        MM  MMMM  MM    MMMM  MM  MM
+MMMM      MMMMMM          MM      MMMM    MM  MM      MM  MM  MM  MMMMMM  MMMM
+MMMM    MM  MM  MM    MM  MMMMMM  MM    MMMMMMMMMM  MMMM  MMMMMM  MMMM  MM  MM
+MM    MM  MMMMMMMMMM  MMMM        MM        MM  MM    MMMMMM  MMMMMM  MMMMMMMM
+MM  MMMM  MM            MMMMMM      MMMMMMMM            MM      MM    MMMMMMMM
+MMMMMMMMMMMMMMMM        MMMMMM      MMMM    MMMMMM    MM    MMMM    MM  MM  MM
+MMMM    MM  MM  MM    MMMM  MM    MMMMMM  MM  MMMM  MMMM  MMMMMMMM  MMMMMM  MM
+MM  MM        MM      MM  MMMM      MMMM    MM      MM      MM    MMMM  MMMMMM
+MM  MM    MM      MMMMMMMM  MM  MMMMMM      MM  MMMM    MM  MM    MM  MM    MM
+MM    MMMMMMMMMMMM        MMMMMM  MMMMMM        MM  MM  MM      MM  MMMM  MMMM
+MM                MM    MMMM  MM    MM      MM  MMMM      MMMM  MMMMMM      MM
+MM  MMMM  MM  MMMMMM  MMMM  MMMM  MMMM  MMMM    MM  MM  MMMM  MMMM      MMMMMM
+MM  MM      MM        MM  MMMM    MM  MM    MM    MM  MM            MMMMMMMMMM
+MMMMMMMMMMMMMMMMMM  MMMM    MMMMMMMM    MMMM  MM  MM  MMMM  MMMMMM        MMMM
+MM              MM  MM      MM          MMMMMMMM  MMMMMMMM  MM  MM      MM  MM
+MM  MMMMMMMMMM  MMMMMM  MMMM      MMMMMMMMMM  MMMMMM    MM  MMMMMM    MM  MMMM
+MM  MM      MM  MM      MMMM    MM  MM  MM  MMMMMM  MMMM            MMMM  MMMM
+MM  MM      MM  MM  MM  MMMM  MMMMMM    MMMMMMMMMMMM        MM  MMMM  MMMMMMMM
+MM  MM      MM  MMMM  MM    MM  MM    MM  MM  MMMM  MM  MM  MMMM            MM
+MM  MMMMMMMMMM  MMMMMM  MM    MMMMMMMM  MMMMMM  MMMMMM  MMMMMM  MM  MM      MM
+MM              MMMM  MM      MMMM    MMMMMM    MM  MMMMMM  MM  MMMM  MMMM  MM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+Please scan the QR code to log in.
+2019-04-22 12:11:58,534 login.py[line:50] INFO Please scan the QR code to log in.
+Log in time out, reloading QR code.
+2019-04-22 12:12:08,335 login.py[line:67] INFO Log in time out, reloading QR code.
+Getting uuid of QR code.
+2019-04-22 12:12:08,335 login.py[line:44] INFO Getting uuid of QR code.
+Downloading QR code.
+2019-04-22 12:12:08,392 login.py[line:47] INFO Downloading QR code.
+                                                  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MM              MMMM  MM  MM    MMMMMM      MMMMMM  MM  MMMMMM              MM
+MM  MMMMMMMMMM  MMMM  MMMM  MM  MMMMMMMM      MMMMMM  MMMMMMMM  MMMMMMMMMM  MM
+MM  MM      MM  MM      MMMM        MM  MM    MMMMMM  MM    MM  MM      MM  MM
+MM  MM      MM  MM  MM  MM        MM  MMMMMM  MMMMMM        MM  MM      MM  MM
+MM  MM      MM  MMMM  MMMMMMMM  MM  MM  MMMMMMMM  MM    MMMMMM  MM      MM  MM
+MM  MMMMMMMMMM  MMMMMM    MMMM    MM  MMMM    MM  MMMM  MMMMMM  MMMMMMMMMM  MM
+MM              MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM              MM
+MMMMMMMMMMMMMMMMMMMM  MMMMMM  MM    MMMMMMMM  MMMM    MM    MMMMMMMMMMMMMMMMMM
+MMMMMMMM    MM    MM    MMMMMMMMMMMMMMMMMMMM        MMMMMMMMMMMMMMMM    MMMMMM
+MMMM          MM      MMMMMMMMMM  MM  MMMM            MM    MMMM          MMMM
+MMMM    MM  MM  MM  MM      MM  MMMM  MMMMMM    MM    MM        MM  MMMMMM  MM
+MMMM          MM  MMMMMM  MM  MMMMMMMMMM  MM  MM  MMMM    MM      MM    MM  MM
+MM  MMMMMM            MM  MMMMMMMMMMMM      MMMMMMMMMMMM    MM    MMMMMM    MM
+MMMMMMMM    MMMM    MM        MM    MMMM    MM    MMMM        MMMM  MM  MMMMMM
+MMMMMMMMMMMM      MM      MMMM  MM      MM    MM  MM  MM  MM    MM          MM
+MM  MMMM  MM  MMMM  MMMMMM  MMMM    MMMMMM  MM  MM  MMMM  MM  MMMM        MMMM
+MMMMMM    MMMM    MM    MMMM    MMMMMMMMMMMM    MMMM  MMMM  MM    MMMM  MM  MM
+MM        MMMMMMMMMM    MM  MM    MMMM  MMMMMMMM      MM  MM  MM  MMMMMM  MMMM
+MMMM    MM  MM  MM    MMMMMM  MM  MM    MMMM    MM  MMMM  MMMMMM  MMMM  MM  MM
+MM  MMMM  MMMMMMMM    MMMMMMMM    MM    MMMM    MM    MMMMMM  MMMMMM  MMMMMMMM
+MMMMMMMM  MM    MMMM      MM  MM    MMMM                MM      MM    MMMMMMMM
+MMMMMMMMMMMMMMMM  MM        MM      MMMM    MMMMMM          MMMM    MM  MMMMMM
+MM      MM  MM  MM    MM  MMMMMM  MMMMMMMMMMMMMMMM  MMMM  MM    MM  MMMMMM  MM
+MMMM          MM  MM  MMMMMM        MMMM      MM    MM      MMMM  MMMM  MM  MM
+MMMMMM  MMMM      MMMMMM    MMMMMMMMMM  MM      MMMM    MM      MMMM  MMMM  MM
+MM  MMMMMM  MMMMMM        MMMM      MMMM        MM  MM        MM      MM  MMMM
+MM      MMMM      MM    MMMM  MMMMMM        MM  MMMM      MMMM  MMMMMMMM    MM
+MM  MM      MMMMMMMM  MMMM  MMMMMMMMMMMMMMMM    MM  MM  MM    MM  MMMM  MMMMMM
+MM  MM  MM  MM      MM    MMMM  MMMMMM      MM    MM  MM                MMMMMM
+MMMMMMMMMMMMMMMMMM          MMMMMM  MM  MMMM  MMMMMM  MMMM  MMMMMM        MMMM
+MM              MM          MM  MM    MMMMMMMMMM  MMMMMMMM  MM  MM      MM  MM
+MM  MMMMMMMMMM  MMMM  MMMMMM    MM      MMMM  MM        MM  MMMMMM    MM  MMMM
+MM  MM      MM  MM  MM  MM          MM  MM  MMMMMM  MMMM            MMMM  MMMM
+MM  MM      MM  MM  MMMM    MMMMMMMM    MM  MMMMMMMMMM      MM  MMMM  MMMMMMMM
+MM  MM      MM  MMMM  MMMMMM  MMMM    MMMMMMMM  MM  MM  MM  MMMM            MM
+MM  MMMMMMMMMM  MMMMMM    MM    MMMMMM  MM  MM  MMMMMM  MMMMMM  MM  MM      MM
+MM              MMMM  MM  MMMMMMMM    MMMM    MMMM  MMMMMM  MM  MMMM  MMMM  MM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+Please scan the QR code to log in.
+2019-04-22 12:12:08,482 login.py[line:50] INFO Please scan the QR code to log in.
+Log in time out, reloading QR code.
+2019-04-22 12:13:45,425 login.py[line:67] INFO Log in time out, reloading QR code.
+Getting uuid of QR code.
+2019-04-22 12:13:45,425 login.py[line:44] INFO Getting uuid of QR code.
+Downloading QR code.
+2019-04-22 12:13:45,482 login.py[line:47] INFO Downloading QR code.
+                                                  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MM              MMMMMM  MM  MM          MMMM        MM      MM              MM
+MM  MMMMMMMMMM  MM    MMMMMMMM  MMMMMMMMMM    MMMMMM  MMMMMMMM  MMMMMMMMMM  MM
+MM  MM      MM  MMMM      MMMM        MM            MMMM    MM  MM      MM  MM
+MM  MM      MM  MMMM    MMMM  MMMMMMMM  MM  MMMM      MMMM  MM  MM      MM  MM
+MM  MM      MM  MMMMMMMM      MM          MMMMMMMMMMMM    MMMM  MM      MM  MM
+MM  MMMMMMMMMM  MM  MMMM      MM    MMMMMM  MM  MMMM  MMMM  MM  MMMMMMMMMM  MM
+MM              MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM              MM
+MMMMMMMMMMMMMMMMMM  MM          MMMM    MM    MM  MMMM  MMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMM        MMMMMM  MMMM    MMMMMMMM  MM    MMMM      MM    MMMMMM  MMMM
+MMMMMMMM      MMMM      MMMM    MM    MM          MMMMMM  MMMM  MM  MM    MMMM
+MM      MM      MMMM      MMMMMM  MMMM  MM    MM  MM      MM  MMMM      MMMMMM
+MM            MM  MM          MM  MM      MMMMMMMM  MM        MMMMMM    MMMMMM
+MM  MMMM    MM      MMMMMMMMMMMM  MMMM          MMMMMMMMMMMM      MM    MM  MM
+MMMMMMMMMMMM  MM    MMMM      MMMM    MM    MM    MMMM        MMMM  MM  MMMMMM
+MM        MMMM  MMMM    MM        MM          MMMMMMMMMM  MMMMMM        MMMMMM
+MMMMMMMM  MM  MMMMMM      MMMM  MM  MM  MMMM    MM  MM  MMMMMM  MMMMMM  MM  MM
+MMMM  MMMMMM    MMMM      MMMM  MMMM  MM  MMMM  MMMMMMMM        MMMM        MM
+MM  MMMM    MMMMMM      MMMMMMMM                MM  MM      MMMMMM  MM  MMMMMM
+MMMM  MMMM  MM  MM    MMMMMM      MM  MMMMMM  MMMMMM      MMMM  MM  MM  MMMMMM
+MMMMMM  MM    MMMMMMMM          MM  MMMMMM  MM    MMMM      MM      MM      MM
+MMMM    MM          MMMM  MM  MMMMMMMMMMMMMM  MM    MMMM  MM    MMMMMM  MMMMMM
+MM    MMMM  MMMMMMMM  MM  MM      MMMMMMMM    MMMM  MMMM  MMMMMMMM  MMMMMMMMMM
+MMMM  MMMMMMMM            MM        MM  MM      MMMMMM        MMMMMMMM  MMMMMM
+MMMMMM  MM    MMMM  MMMM    MM  MM  MM        MM  MMMM  MM  MM    MM        MM
+MM      MM  MM  MMMM                        MM    MM              MMMM      MM
+MM          MMMMMM  MM    MMMMMMMMMM  MM        MM  MM  MM  MM  MM  MMMM  MMMM
+MMMMMMMMMM      MMMM        MMMM  MMMM  MM  MM      MM        MMMMMM  MMMMMMMM
+MMMMMMMM  MM  MMMM    MM  MMMM    MMMM  MM  MM    MMMMMMMMMMMM  MM  MM      MM
+MM      MM      MM      MMMM    MM    MMMM      MMMMMMMMMM                MMMM
+MMMMMMMMMMMMMMMMMM    MMMM      MMMM                MM  MM  MMMMMM    MMMMMMMM
+MM              MM  MM    MM  MM  MM  MM    MMMM        MM  MM  MM      MMMMMM
+MM  MMMMMMMMMM  MM  MMMM    MMMMMMMMMMMM    MM  MMMMMMMM    MMMMMM  MM  MM  MM
+MM  MM      MM  MM  MM  MMMM  MM  MM  MMMM      MM  MM  MM                MMMM
+MM  MM      MM  MMMMMM  MM    MMMM    MM    MM  MMMM      MMMM    MM    MMMMMM
+MM  MM      MM  MMMM    MM    MMMMMM    MMMM    MMMM    MMMMMM    MM  MM  MMMM
+MM  MMMMMMMMMM  MMMM    MMMMMM    MMMMMM    MMMMMM  MM    MMMMMMMM        MMMM
+MM              MMMMMM  MM  MMMM  MMMMMM  MM        MMMM  MM    MMMMMM      MM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+Please scan the QR code to log in.
+2019-04-22 12:13:45,581 login.py[line:50] INFO Please scan the QR code to log in.
+Getting uuid of QR code.
+2019-04-22 12:15:43,695 login.py[line:44] INFO Getting uuid of QR code.
+Downloading QR code.
+2019-04-22 12:15:43,878 login.py[line:47] INFO Downloading QR code.
+                                                  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MM              MMMM  MM  MM    MMMMMM    MM  MMMM  MM  MMMMMM              MM
+MM  MMMMMMMMMM  MMMM  MMMMMMMMMMMMMMMMMM    MMMMMMMM  MMMMMMMM  MMMMMMMMMM  MM
+MM  MM      MM  MM        MM        MM      MM  MMMM  MM    MM  MM      MM  MM
+MM  MM      MM  MM  MM  MM  MMMM  MM  MMMMMM  MMMMMM        MM  MM      MM  MM
+MM  MM      MM  MMMM  MM  MM  MMMM  MM    MM      MM    MMMMMM  MM      MM  MM
+MM  MMMMMMMMMM  MMMMMM    MMMM    MM  MM    MMMM  MMMM  MMMMMM  MMMMMMMMMM  MM
+MM              MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM  MM              MM
+MMMMMMMMMMMMMMMMMMMM  MMMM    MM    MMMMMMMM    MM    MM    MMMMMMMMMMMMMMMMMM
+MMMMMMMM    MM    MM    MMMM    MMMMMMMMMMMMMM    MMMMMMMMMMMMMMMMMM    MMMMMM
+MMMMMMMM      MM    MMMMMMMMMMMMMMMMMMMMMM    MM  MM  MM            MMMM  MMMM
+MMMM  MM  MM    MM  MM      MM          MMMM      MM  MM        MM    MMMM  MM
+MMMM        MMMM  MM      MM  MM  MM      MM  MM    MM  MM      MM  MM  MM  MM
+MM  MM      MM      MMMM  MMMMMMMM  MM      MMMM    MMMM    MM    MMMMMM    MM
+MMMMMM    MMMMMM      MM      MMMM          MM    MMMM        MMMM  MM  MMMMMM
+MMMMMM  MMMM      MMMMMM  MMMM  MM    MMMM    MM  MM  MM  MM    MM          MM
+MM  MM  MM    MMMM  MMMMMM  MMMM        MM  MM  MM  MMMM  MM  MMMM        MMMM
+MMMMMMMM            MM  MMMM    MMMM    MM      MMMM  MMMM  MM    MMMM  MM  MM
+MM        MMMMMM  MM  MM  MMMM    MMMMMM  MMMMMM      MM  MM  MM  MMMMMM  MMMM
+MMMM    MM  MM  MMMM  MMMM  MMMM  MM    MMMMMMMMMM  MMMM  MMMMMM  MMMM  MM  MM
+MM    MM  MMMMMM      MM  MMMM    MM      MM    MM    MMMMMM  MMMMMM  MMMMMMMM
+MMMMMMMM  MM    MM      MM    MM    MMMMMM          MM  MM      MM    MMMMMMMM
+MM  MMMMMMMMMMMMMMMM    MM          MMMMMM      MM    MM    MMMM    MM    MMMM
+MMMMMM  MM  MM    MM  MMMM  MM    MMMMMM    MMMMMM  MMMM  MMMMMMMM  MMMMMM  MM
+MM            MMMMMM  MM      MM    MMMMMM          MM      MMMM  MMMM  MMMMMM
+MM        MM    MMMMMMMMMM      MMMMMM  MM    MMMMMM    MM  MM  MMMM  MMMMMMMM
+MM    MMMM  MMMMMM        MMMM  MMMMMMMM      MMMM  MM  MM  MMMMMM    MM  MMMM
+MM    MM  MMMM    MM  MMMMMM  MMMM          MM  MMMM        MM  MM          MM
+MM  MMMM    MMMMMMMMMMMMMM  MMMMMM  MMMMMMMM    MM  MM    MM  MM        MMMMMM
+MM  MM  MMMM        MMMM  MMMM    MM  MM    MM    MM  MMMM            MMMMMMMM
+MMMMMMMMMMMMMMMMMM          MMMM  MMMM  MMMM  MM  MM  MMMM  MMMMMM        MMMM
+MM              MM    MM    MM      MMMMMMMMMMMM    MMMMMM  MM  MM      MM  MM
+MM  MMMMMMMMMM  MMMM    MMMM    MM  MMMMMMMM  MM  MM    MM  MMMMMM    MM  MMMM
+MM  MM      MM  MM  MMMMMMMM    MM  MMMMMMMMMMMMMM  MMMM            MMMM  MMMM
+MM  MM      MM  MM  MMMMMM    MMMMMM  MM    MMMMMMMMMM      MM  MMMM  MMMMMMMM
+MM  MM      MM  MMMM  MMMMMM    MM    MMMM      MM    MMMM  MMMM            MM
+MM  MMMMMMMMMM  MMMMMM      MMMMMMMMMM  MMMM    MMMMMM  MMMMMM  MM  MM      MM
+MM              MMMM  MM    MMMMMM    MM      MMMM  MMMMMM  MM  MMMM  MMMM  MM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+Please scan the QR code to log in.
+2019-04-22 12:15:43,972 login.py[line:50] INFO Please scan the QR code to log in.
+Please press confirm on your phone.
+2019-04-22 12:15:54,798 login.py[line:60] INFO Please press confirm on your phone.
+Loading the contact, this may take a little while.
+2019-04-22 12:15:56,571 login.py[line:70] INFO Loading the contact, this may take a little while.
+[3;J[H[2JLogin successfully as 赵公子ฅ
+2019-04-22 12:15:59,288 login.py[line:80] INFO Login successfully as 赵公子ฅ
+2019-04-22 12:16:01,170 base.py[line:436] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2019-04-22 12:16:01,171 base.py[line:436] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2019-04-22 12:16:01,171 base.py[line:436] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2019-04-22 12:16:01,171 base.py[line:436] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2019-04-22 12:16:01,172 base.py[line:878] INFO Added job "data_process" to job store "default"
+2019-04-22 12:16:01,172 base.py[line:878] INFO Added job "send_msg" to job store "default"
+2019-04-22 12:16:01,173 base.py[line:878] INFO Added job "send_msg" to job store "default"
+2019-04-22 12:16:01,173 base.py[line:878] INFO Added job "send_msg" to job store "default"
+2019-04-22 12:16:01,173 base.py[line:162] INFO Scheduler started
+Start auto replying.
+2019-04-22 12:16:01,174 register.py[line:85] INFO Start auto replying.
+2019-04-23 07:00:00,002 base.py[line:123] INFO Running job "data_process (trigger: cron[day_of_week='*', hour='7', minute='0', second='0'], next run at: 2019-04-24 07:00:00 CST)" (scheduled at 2019-04-23 07:00:00+08:00)
+2019-04-23 07:00:00,069 base.py[line:144] INFO Job "data_process (trigger: cron[day_of_week='*', hour='7', minute='0', second='0'], next run at: 2019-04-24 07:00:00 CST)" executed successfully
+2019-04-23 07:30:09,003 base.py[line:123] INFO Running job "send_msg (trigger: cron[day_of_week='tue-fri', hour='7', minute='30', second='9'], next run at: 2019-04-23 07:30:09 CST)" (scheduled at 2019-04-23 07:30:09+08:00)
+2019-04-23 07:30:09,381 base.py[line:144] INFO Job "send_msg (trigger: cron[day_of_week='tue-fri', hour='7', minute='30', second='9'], next run at: 2019-04-24 07:30:09 CST)" executed successfully
+2019-04-24 07:00:00,004 base.py[line:123] INFO Running job "data_process (trigger: cron[day_of_week='*', hour='7', minute='0', second='0'], next run at: 2019-04-24 07:00:00 CST)" (scheduled at 2019-04-24 07:00:00+08:00)
+2019-04-24 07:00:00,023 base.py[line:144] INFO Job "data_process (trigger: cron[day_of_week='*', hour='7', minute='0', second='0'], next run at: 2019-04-25 07:00:00 CST)" executed successfully
+2019-04-24 07:30:09,005 base.py[line:123] INFO Running job "send_msg (trigger: cron[day_of_week='tue-fri', hour='7', minute='30', second='9'], next run at: 2019-04-24 07:30:09 CST)" (scheduled at 2019-04-24 07:30:09+08:00)
+2019-04-24 07:30:09,429 base.py[line:144] INFO Job "send_msg (trigger: cron[day_of_week='tue-fri', hour='7', minute='30', second='9'], next run at: 2019-04-25 07:30:09 CST)" executed successfully
+2019-04-25 07:00:00,004 base.py[line:123] INFO Running job "data_process (trigger: cron[day_of_week='*', hour='7', minute='0', second='0'], next run at: 2019-04-25 07:00:00 CST)" (scheduled at 2019-04-25 07:00:00+08:00)
+2019-04-25 07:00:00,021 base.py[line:144] INFO Job "data_process (trigger: cron[day_of_week='*', hour='7', minute='0', second='0'], next run at: 2019-04-26 07:00:00 CST)" executed successfully
+2019-04-25 07:30:09,007 base.py[line:123] INFO Running job "send_msg (trigger: cron[day_of_week='tue-fri', hour='7', minute='30', second='9'], next run at: 2019-04-25 07:30:09 CST)" (scheduled at 2019-04-25 07:30:09+08:00)
+2019-04-25 07:30:09,453 base.py[line:144] INFO Job "send_msg (trigger: cron[day_of_week='tue-fri', hour='7', minute='30', second='9'], next run at: 2019-04-26 07:30:09 CST)" executed successfully
